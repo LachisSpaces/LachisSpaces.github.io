@@ -1,0 +1,204 @@
+
+html {
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-color: rgb(0,0,8);
+   height: 100%;
+} 
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+	text-shadow: 0px 0px 0.3em rgba(64, 0, 255, 192);
+    color: rgb(32, 96, 255);
+} 
+
+canvas { 
+    left: 0px; 
+    top: 0px; 
+    width: 100%; 
+    height: 100%;    
+    z-index: -1;
+    display: block; 
+}
+
+h1 {
+	margin: 0px;
+	padding-top: 3vw;
+	padding-bottom: 4vw;
+	font-weight: normal; 
+	font-size: 60px;
+}
+
+h2 {
+	margin: 0px;
+	padding-top: 1.2vw;
+	font-weight: normal; 
+	font-size: 50px;
+}
+
+h3 {
+	margin: 0px;
+	padding-top: 1.2vw;
+	font-weight: normal; 
+	font-size: 40px;
+}
+
+h4 {
+	margin: 0px;
+	padding-top: 1.2vw;
+	font-size: 30px;
+}
+
+p {
+	margin: 0px;
+	padding-top: 1vw;
+	font-size: 30px;
+}
+
+a {
+    color: inherit;
+    /*text-decoration: none;*/
+}
+
+.canvascontainer {
+    position: fixed; 	
+    left: 0px; 
+    top: 0px; 
+    width: 100%; 
+    height: 100%;    
+    z-index: -1;
+    display: block; 
+}
+
+.title {
+	float: left;
+	width: 100%; 
+} 
+
+.text-in-title {
+	text-align: center;	
+}
+
+.block {
+	float: left;
+	width: 100%; 
+}
+
+.text-in-block {
+	text-align: left;
+	margin: 3vw 2vw;
+}
+
+.spacing {
+	float: left;
+	width: 100%; 
+}
+
+.legal {
+	float: left;
+	width: 100%; 
+}
+
+.text-in-legal {
+	margin-top: 1vw;
+	text-align: left;
+}
+
+.subtitle {
+	float: left;
+	width: 100%; 
+}
+
+.text-in-subtitle {
+	margin-top: 10vw;
+	margin-bottom: 2vw;
+	text-align: center;	
+}
+
+.content {
+	float: left;
+	width: 100%; 	
+}
+
+.content-wide {
+	float: left;
+	width: 100%; 	
+}
+
+.text-in-content {
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+@media (min-width: 600px) {
+	.content { width: 49%; padding: 1px; }
+	.content-wide { width: 99%; padding: 1px; }
+}
+
+@media (min-width: 768px) {
+	.block  { width: 49%; }
+	.spacing { width:  2%; }
+	.content { width: 33%; padding: 1px; }
+	.content-wide { width: 66%; padding: 1px; }
+	.text-in-block { margin: 1vw 1vw; }
+	.text-in-legal { text-align: center; }
+}
+
+@media (min-width: 992px) {
+	.block  { width: 46%; }
+	.spacing { width:  8%; }
+	.content { width: 33%; padding: 1px; }
+	.text-in-block { margin: 1vw 2vw; }
+}
+
+@media (min-width: 1200px) {
+	.block  { width: 42%; }
+	.spacing { width: 16%; }
+	.content { width: 24.8%; padding: 1px; }
+	.content-wide { width: 29.6%; padding: 1px; }
+	.text-in-block { margin: 10vw 2vw; }
+}
+
+@media (min-width: 1440px) {
+	.content { width: 19.8%; padding: 1px; }
+	.content-wide { width: 39.6%; padding: 1px; }
+}
+
+@media (min-width: 1680px) {
+	.content { width: 16.5%; padding: 1px; }
+	.content-wide { width: 33%; padding: 1px; }
+}
+
+@media (min-width: 1920px) {
+	.content { width: 14.16%; padding: 1px; }
+	.content-wide { width: 28.32%; padding: 1px; }
+}
+
+@media (min-width: 2160px) {
+	.block  { width: 38%; }
+	.spacing { width: 24%; }
+	.content { width: 12.4%; padding: 1px; }
+	.content-wide { width: 24.8%; padding: 1px; }
+	.text-in-block { margin: 5vw 2vw; }
+}
+
+@media (min-width: 2400px) {
+	.content { width: 11.02%; padding: 1px; }
+	.content-wide { width: 22.04%; padding: 1px; }
+}
+
+@media (min-width: 2640px) {
+	.content { width: 9.92%; padding: 1px; }
+	.content-wide { width: 18.84%; padding: 1px; }
+}
+
+@media (min-width: 2880px) {
+	.content { width: 9.02%; padding: 1px; }
+	.content-wide { width: 18.04%; padding: 1px; }
+}
+
+@media (min-width: 3120px) {
+	.content { width: 8.26%; padding: 1px; }
+	.content-wide { width: 16.52%; padding: 1px; }
+}
