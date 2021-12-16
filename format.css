@@ -1,0 +1,85 @@
+
+body {
+    font-family: Verdana, Geneva, sans-serif;;
+    color: white;
+}
+
+
+nav, nav ul, nav li {           /* Normalisierung */
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+    border: 0;
+}
+
+nav {
+    display: block;
+    position: fixed;
+    top: 5em;
+    left: 5em;
+}
+
+nav div:hover ul {
+    font: inherit;
+}
+
+nav ul {
+    padding: 0px 0px 0.5em 0.5em;
+    font: 0/0 serif;/* Unternavigation ausblenden */
+}
+
+nav ul li {
+    padding: 0.5em 0px 0px 0px;
+    font-size: 1.8em;
+}
+
+nav ul li ul li {
+    padding: 0px 0px 0px 0px;
+    font-size: 0.9em;
+}
+    
+nav li {
+    text-shadow: 0px 0px 0.6em rgba(64, 0, 255, 255);
+}
+
+.navicon {
+    font-size: 2.3em;
+    text-shadow: 0px 0px 0.5em rgba(64, 0, 255, 192);
+}
+
+
+.groupedlist div {
+   display:block;
+}
+
+.groupedlist img {
+   width:100%; height:auto;
+}
+
+.groupedlist div a div {
+   display:block;
+}
+
+.groupedlist div div {
+   display:none;
+}
+
+.groupedlist div:target div {
+   display:block;
+}
+
+
+.centertable {
+    width: 60%;
+    min-width: 40em;
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box {
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-left: 25em;
+    margin-right: 25em;
+}
